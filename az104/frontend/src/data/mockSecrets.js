@@ -1,0 +1,72 @@
+export const initialSecrets = [
+  {
+    id: 1,
+    name: "DATABASE_PASSWORD",
+    value: "P@ssw0rd2026!StudentDb",
+    category: "DATABASE",
+    application: "Student Portal",
+    enabled: true,
+    createdAt: "2026-01-15T10:30:00Z",
+    updatedAt: "2026-08-20T14:45:00Z",
+    expiresAt: "2026-12-31T23:59:59Z",
+    status: "ACTIVE",
+    tags: { env: "prod", tier: "backend", db: "mysql" },
+    versionCount: 3
+  },
+  {
+    id: 2,
+    name: "PAYMENT_API_KEY",
+    value: "sk_live_992837418239019238401",
+    category: "API",
+    application: "Payment Gateway",
+    enabled: true,
+    createdAt: "2026-02-01T09:00:00Z",
+    updatedAt: "2026-07-10T11:20:00Z",
+    expiresAt: "2026-10-15T23:59:59Z",
+    status: "ACTIVE",
+    tags: { provider: "stripe", env: "production" },
+    versionCount: 2
+  },
+  {
+    id: 3,
+    name: "JWT_SECRET",
+    value: "404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970",
+    category: "AUTHENTICATION",
+    application: "Auth Service",
+    enabled: true,
+    createdAt: "2026-03-10T08:15:00Z",
+    updatedAt: "2026-03-10T08:15:00Z",
+    expiresAt: "2027-03-10T08:15:00Z",
+    status: "ACTIVE",
+    tags: { type: "hs256", service: "auth" },
+    versionCount: 1
+  },
+  {
+    id: 4,
+    name: "STORAGE_ACCESS_KEY",
+    value: "az-storage-key-prod-99201a88bb331002",
+    category: "STORAGE",
+    application: "E-Commerce Platform",
+    enabled: true,
+    createdAt: "2026-04-05T16:20:00Z",
+    updatedAt: "2026-09-01T12:00:00Z",
+    expiresAt: "2026-11-01T23:59:59Z",
+    status: "ACTIVE",
+    tags: { resource: "blob", container: "user-uploads" },
+    versionCount: 2
+  },
+  {
+    id: 5,
+    name: "SMTP_PASSWORD",
+    value: "SendGrid_ApiKey_v992837192",
+    category: "OTHER",
+    application: "Notification Service",
+    enabled: true,
+    createdAt: "2026-05-12T14:00:00Z",
+    updatedAt: "2026-05-12T14:00:00Z",
+    expiresAt: "2026-11-12T23:59:59Z",
+    status: "ACTIVE",
+    tags: { mailer: "sendgrid" },
+    versionCount: 1
+  }
+];
